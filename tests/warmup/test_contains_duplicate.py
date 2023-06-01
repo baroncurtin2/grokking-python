@@ -1,6 +1,6 @@
 import pytest
 
-from grokking.warmup.contains_duplicate import *
+from grokking.warmup.contains_duplicate import contains_duplicate_sorting, contains_duplicate_set, contains_duplicate_brute_force
 
 from dataclasses import dataclass
 

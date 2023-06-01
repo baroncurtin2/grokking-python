@@ -29,10 +29,3 @@ def contains_duplicate_sorting(nums: list[int]) -> bool:
     nums = sorted(nums)
 
     return any(nums[i] == nums[i + 1] for i in range(len(nums) - 1))
-
-
-__all__ = [
-    "contains_duplicate_brute_force",
-    "contains_duplicate_set",
-    "contains_duplicate_sorting",
-]
